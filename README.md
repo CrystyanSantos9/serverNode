@@ -162,7 +162,7 @@ yarn start
 
 Caso tudo esteja correto essa será a saída do seu terminal
 
-![Run](img11.jpg)
+![Run](/img/img11.jpg)
 
 Abra o seu navegador e digite a seguinte rota 
 
