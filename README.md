@@ -19,7 +19,7 @@ Para execurtarmos esse projeto será necessário:
 	
 ## Iniciando o projeto
 Criamos uma pasta onde armazenaremos nossa estrutura de códigos, estou utilizando um sistema Windows 10. Portanto, pode ser que isso varie de acordo com o sistema que esteja utilizando. 
-![Diretorio](img1.jpg)
+![Diretorio](/img/img1.jpg)
 
 Ou seja, criei a pasta **/nodeJWT** no caminho
 
@@ -27,11 +27,11 @@ C:\projects\Desenvolvimento\nodeJWT
 
 Vamos abrir o nosso Editor de código e entrar em nossa pasta utilizando o comando abaixo: 
 
-![CdPath](img2.jpg)
+![CdPath](/img/img2.jpg)
 
 Quando estiver dentro da pasta seu editar terá a seguinte saída:
 
-![CdIntoPath](img3.jpg)
+![CdIntoPath](/img/img3.jpg)
 
 Uma vez aberto a pasta do projeto, instalaremos o gerenciador de pacote [Yarn](https://yarnpkg.com/), conforme o comando abaixo:
 
@@ -74,7 +74,7 @@ Vamos também aproveitar para instalar mais algumas dependências
 
     Apos a instalação dessas dependências nosso package.json ficará dessa maneira:
 
-    ![Package](img4.jpg)
+    ![Package](/img/img4.jpg)
     
     Note que já configurei o meu campo **Scripts**
     ```
@@ -87,11 +87,11 @@ Vamos também aproveitar para instalar mais algumas dependências
 
     Portanto criaremos a pasta **/src** onde ficará o nosso arquivo server.js 
 
-    ![SRC](img6.jpg)
+    ![SRC](/img/img6.jpg)
     
     Em seguida, na raiz do nosso projeto criaremos o **nodemon.json** que será utilizado para [transpilar](https://natanaelfonseca.com.br/2017/02/08/transpilar-codigo-para-javascript/#:~:text=Transpilar%20significa%20converter%20um%20c%C3%B3digo,c%C3%B3digo%20equivalente%20em%20outra%20linguagem) o nosso código através da nossa lib sucrase. 
 
-    ![Nodemonjs](img5.jpg)
+    ![Nodemonjs](/img/img5.jpg)
 
     Dentro do nodemon.json vamos por código abaixo
 
@@ -123,7 +123,7 @@ import { Router } from "express";
  ```
 Criaremos o objeto server e o objeto routes 
 
-![ServeERoutes](img7.jpg)
+![ServeERoutes](/img/img7.jpg)
 
 Onde o server é o nosso servidor e routes é o manipulador de rotas
 
@@ -131,7 +131,7 @@ Vamos declarar alguns middlewares importantes para iniciarmos o nosso servidor
 
 para saber mais sobre middlewares (http://expressjs.com/en/guide/using-middleware.html)
 
-![Mid](img8.jpg)
+![Mid](/img/img8.jpg)
 
 Basicamente, a função dos middlewares é interceptar nossas requisições e realizar algumas verificações, de acordo com o que configurarmos ou for importante para nós. 
 
@@ -146,11 +146,11 @@ https://pt.stackoverflow.com/questions/130758/ajuda-com-funcao-urlencode
 
 Agora criaremos nossa primeira rota /clientes que apenas nos retornará um json com uma mensagem
 
-![Rota1](img9.jpg)
+![Rota1](/img/img9.jpg)
 
 Ao fim do documento vamos faze nosso server utilizar nossa rota criada e fazer ele executar nosso servidor na porta 3000 
 
-![Setup](img10.jpg)
+![Setup](/img/img10.jpg)
 
 Finalizando o nosso server.js, podemos agora testar nossa aplicação. 
 
@@ -170,7 +170,7 @@ Abra o seu navegador e digite a seguinte rota
 
 Se tudo estiver ok essa será a nossa saída
 
-![Saida](img12.jpg)
+![Saida](/img/img12.jpg)
 
 Show! Nosso servidor está funcionando conforme esperado. 
 
@@ -182,4 +182,4 @@ Qualquer dúvida é só entrar em contato que estarei disposto a ajudá-lo. @oct
 
 
 
-# serverNode
+### ... Teremos mais conteúdo
